@@ -1,0 +1,37 @@
+SET FOREIGN_KEY_CHECKS=0;
+
+TRUNCATE TABLE `companies`;
+
+INSERT INTO `companies` (`id`,`name`) VALUES
+(1,'ABAA'),
+(2,'Advanstaff'),
+(3,'AffordaCare'),
+(4,'AIA'),
+(5,'Brite'),
+(6,'CBiz'),
+(7,'Employsource'),
+(8,'FinanceGuru'),
+(9,'Financial Fitness'),
+(10,'Fortis Life'),
+(11,'GoCo'),
+(12,'HealthEE'),
+(13,'ICHRA Life/Golden Bee Advisors'),
+(14,'KindHealth'),
+(15,'Mylo'),
+(16,'MyTermProvider'),
+(17,'NAMB'),
+(18,'NAMFS'),
+(19,'NWI'),
+(20,'Owners Choice Benefits'),
+(21,'Risk Strategies'),
+(22,'Risk Strategies|MANA'),
+(23,'Risk Strategies|Cuny'),
+(24,'Simploy'),
+(25,'SpiritHRlife'),
+(26,'Techserve'),
+(27,'The Insurance Loft'),
+(28,'TheWellington Group'),
+(29,'TWQA'),
+(30,'Vam'),
+(31,'Velocity Benefits'),
+(32,'Wentworth');

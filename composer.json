@@ -1,0 +1,24 @@
+{
+    "name": "pendella/speed-test",
+    "description": "speed tests for pendella's products and companies",
+    "autoload": {
+        "psr-4": {
+            "Pendella\\SpeedTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "michaelDvoretskiy",
+            "email": "m.dvoretskiy@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "doctrine/orm": "^2.11.2",
+        "doctrine/dbal": "^3.3.4",
+        "symfony/yaml": "2.*",
+        "symfony/cache": "^5.3",
+        "doctrine/annotations": "^1.13",
+        "spipu/html2pdf": "^5.2"
+    }
+}
